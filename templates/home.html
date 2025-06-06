@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+    <h1>Добро пожаловать в клуб любителей картошки!</h1>
+    <p>Информационный ресурс о выращивании, сортах и приготовлении блюд из картофеля.</p>
+
+    <div style="margin-top: 30px;">
+        <h2>Наши преимущества:</h2>
+        <ul style="list-style-position: inside; font-size: 1.1rem;">
+            <li>Последние новости из мира картошки</li>
+            <li>Профессиональная команда</li>
+            <li>Инновационные рецепты</li>
+            <li>Поддержка 24/7</li>
+        </ul>
+    </div>
+
+    <div style="margin-top: 30px; background: #f0f7ff; padding: 20px; border-radius: 8px;">
+        <h3>Специальное предложение</h3>
+        <p>Только в этом месяце скидка 20% на все рецепты для новых клиентов!</p>
+        <button style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; margin-top: 10px;">
+            Получить предложение
+        </button>
+    </div>
+{% endblock %}
